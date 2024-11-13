@@ -35,6 +35,7 @@ To use this package in your project, you'll need to:
     ```
 
 # Sample output:
+```
 2024-11-12 (Tuesday): 4.4°C
 2024-11-13 (Wednesday): 5.1°C
 2024-11-14 (Thursday): 9°C
@@ -42,6 +43,7 @@ To use this package in your project, you'll need to:
 2024-11-16 (Saturday): 10.9°C
 2024-11-17 (Sunday): 9.8°C
 2024-11-18 (Monday): 11.2°C
+```
 
 # Copyright
 Harshit Savani 2024
