@@ -11,7 +11,7 @@
     <Copyright>Harshit Savani 2024</Copyright>
     <PackageProjectUrl>example.com/tempfornow</PackageProjectUrl>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <RepositoryUrl>github.com/tempfornow</RepositoryUrl>
+    <RepositoryUrl>https://github.com/harsh02it/toronto-weather-a3</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>weather,toronto,harshit,savani</PackageTags>
     <PackageReleaseNotes>This version only has weather for city of Toronto.</PackageReleaseNotes>
