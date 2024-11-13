@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Weather App</Title>
+    <Company>$(Authors)</Company>
+    <Authors>Harshit Savani</Authors>
+    <Description>This is a package for Weather App for the city of Toronto, ON.</Description>
+    <Copyright>Harshit Savani 2024</Copyright>
+    <PackageProjectUrl>example.com/tempfornow</PackageProjectUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>github.com/tempfornow</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>weather,toronto,harshit,savani</PackageTags>
+    <PackageReleaseNotes>This version only has weather for city of Toronto.</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageId>$(AssemblyName)A3_059</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
